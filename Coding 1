@@ -1,0 +1,55 @@
+package patterns;
+
+public class PrintPattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		PrintCheckerPattern();
+		PrintSquarePattern();
+		PrintStarPattern();
+		PrintTriangularPattern();
+		
+	}
+		
+		static void PrintCheckerPattern() {
+		
+		System.out.println("* * * * *");
+		System.out.println(" * * * * *");
+		System.out.println("* * * * *");
+		System.out.println(" * * * * *");
+		System.out.println("* * * * *");
+		
+		}
+		
+		static void PrintSquarePattern() {
+		
+		System.out.println("* * * * *");
+		System.out.println("*       *");
+		System.out.println("*       *");
+		System.out.println("*       *");
+		System.out.println("* * * * *");
+		
+		}
+		
+		static void PrintStarPattern() {
+			
+		System.out.println("    *");
+		System.out.println("* *   * *");
+		System.out.println("   * *");
+		System.out.println("  *   *");
+		System.out.println(" *     *");
+		
+		}
+		
+		static void PrintTriangularPattern() {
+		
+		System.out.println("* * * * *");
+		System.out.println(" *     *");
+		System.out.println("  *   *");
+		System.out.println("   * *");
+		System.out.println("    *");
+
+	}
+
+}
